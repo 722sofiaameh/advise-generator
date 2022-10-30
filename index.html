@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- displays site properly based on user's device -->
 
     <link
@@ -19,7 +19,6 @@
       .attribution {
         font-size: 11px;
         text-align: center;
-      
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -28,20 +27,22 @@
   </head>
   <body class="bg-bgColor">
     <section class="flex justify-center items-center mx-auto container">
-      <div class="bg-mainColor w-1/2 mt-20 p-4 rounded-xl">
+      <div class="bg-mainColor w-3/4 mt-20 p-4 rounded-xl container mx-auto">
         <!-- Advice ID goes here -->
-        <div  class="text-adColor text-center uppercase">
+        <div class="text-adColor text-center uppercase">
           Advice #
           <span id="advice-Id"></span>
         </div>
         <!-- Advice text goes here -->
-        <div class=" text-center text-txtColor p-4" id="output">
+        <div class="text-center text-txtColor p-4" id="output">
           <!-- "Click to get random advices" -->
-          
         </div>
-        <img src="./images/pattern-divider-mobile.svg" />
+        <div class="flex justify-center items-center"><img src="./images/pattern-divider-mobile.svg" /></div>
         <div class="flex justify-center items-center" id="button">
-          <img src="./images/icon-dice.svg" class="bg-adColor rounded-full w-10 p-2 -mb-14 cursor-pointer" />
+          <img
+            src="./images/icon-dice.svg"
+            class="bg-adColor rounded-full w-10 p-2 -mb-14 cursor-pointer"
+          />
         </div>
       </div>
     </section>

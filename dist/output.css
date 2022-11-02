@@ -692,3 +692,9 @@ video {
   --tw-text-opacity: 1;
   color: hsl(193 38% 86% / var(--tw-text-opacity));
 }
+
+@media (min-width: 768px) {
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+}
